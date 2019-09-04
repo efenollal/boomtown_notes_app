@@ -6,6 +6,10 @@ CRUD application built in Laravel and VueJs
 - On the terminal or cmd, navigate to the location to where the project will reside in and type `git clone https://github.com/efenollal/boomtown_notes_app.git`. 
   - The repository can also be downloaded as a zip file and unzip it to the project location by opening Clone or download dropdown button and select Download ZIP.
 - The application can be quickly run by using Laravel's development server. On your terminal/cmd, simply cd to boomtonw_notes root and type `php artisan serve`. Navigate to *localhost:8000/notes* to see the notes list.
+- Rename .env.example to .env and change dbengine to sqlite, dbnane to database.sqlite and leave username and password blank.
+- Create database.sqlite file in database folder.
+- Run composer install on your terminal/cmd.
+- Run run install on terminal after composer is done installing its packages.
 
 ## Usage
 
