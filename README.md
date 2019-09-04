@@ -21,10 +21,10 @@ CRUD application built in Laravel and VueJs
 
 ## Testing
 
-Unit tests are run in memory. There is a separate sqlite database for testing purposes. To run tests on your terminal/cmd:
+Unit tests are run in memory. There is a separate sqlite database for testing purposes. If not present create a file and name it `test.sqlite`. To run tests on your terminal/cmd:
 1. Go to the root of the application
 2. Type `php artisan config:clear`. This will clear the default database configuration and use the .env.testing variables and phpunit.xml settings.
-3. Type `vendor/bin/phpunit --filter <testName>` to run the tests located in *app/tests/Feature/NoteTest.php*. 
+3. Type `vendor/bin/phpunit --filter <testName>` to run the tests located in *tests/Feature/NoteTest.php*. 
 
 
 
