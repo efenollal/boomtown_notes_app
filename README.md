@@ -10,6 +10,8 @@ CRUD application built in Laravel and VueJs
 - Create database.sqlite file in database folder.
 - Run composer install on your terminal/cmd.
 - Run run npm install on terminal/cmd after composer is done installing its packages.
+- Run php artisan migrate so the required tables are generated.
+- Finally run php artisan serve to start the server.
 
 ## Usage
 
