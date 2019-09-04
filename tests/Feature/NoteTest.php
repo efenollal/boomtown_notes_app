@@ -42,16 +42,6 @@ class NoteTest extends TestCase
         $response->assertStatus(200);
     }
 
-    public function testCanUpdateNote()
-    {
-        $note = factory('App\Note')->create();
-
-        $note->note = 'Updated note';
-
-        $this->patch('notes/'.$note->id, $note->toArray());
-
-        $this->assertDatabaseHas('notes', ['note' => $note->note]);
-    }
 
     public function testCanDeleteNote()
     {
