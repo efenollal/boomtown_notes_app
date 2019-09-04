@@ -9,7 +9,7 @@ CRUD application built in Laravel and VueJs
 - Rename .env.example to .env and change dbengine to sqlite, dbnane to database.sqlite and leave username and password blank.
 - Create database.sqlite file in database folder.
 - Run composer install on your terminal/cmd.
-- Run run install on terminal after composer is done installing its packages.
+- Run run npm install on terminal/cmd after composer is done installing its packages.
 
 ## Usage
 
