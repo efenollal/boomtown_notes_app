@@ -7,11 +7,11 @@ CRUD application built in Laravel and VueJs
   - The repository can also be downloaded as a zip file and unzip it to the project location by opening Clone or download dropdown button and select Download ZIP.
 - The application can be quickly run by using Laravel's development server. On your terminal/cmd, simply cd to boomtonw_notes root and type `php artisan serve`. Navigate to *localhost:8000/notes* to see the notes list.
 - Rename .env.example to .env and change dbengine to sqlite, dbnane to database.sqlite and leave username and password blank.
-- Create database.sqlite file in database folder.
+- Create a new file and name it **database.sqlite** file in database folder.
 - Run composer install on your terminal/cmd.
-- Run run npm install on terminal/cmd after composer is done installing its packages.
-- Run php artisan migrate so the required tables are generated.
-- Finally run php artisan serve to start the server.
+- Run run `npm install` on terminal/cmd after composer is done installing its packages.
+- Run `php artisan migrate` so the required tables are generated.
+- Finally run `php artisan serve` to start the server.
 
 ## Usage
 
