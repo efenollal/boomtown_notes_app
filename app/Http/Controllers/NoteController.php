@@ -69,6 +69,12 @@ class NoteController extends Controller
         return view('/notes.edit', compact('note'));
     }
 
+    /**
+     * Fetches a note specified by ID
+     * 
+     * @param int $id
+     * @return json
+     */
     public function fetchNote($id)
     {
         $note = Note::findOrFail($id);
